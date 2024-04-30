@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.sidebar {
+    width: 360px;
+    height: 100vh;
+    background-color: #84a4ff;
+    border-right: 20px solid #193760;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 50px;
+    transform: translateX(-340px);
+    transition-duration: 1s;
+}
+
+.sidebar:hover {
+    transform: translateX(0px);
+    transition-duration: 2s;
+}
+.sidebar img {
+    width: 100%;
+    max-width: 300px;
+}
