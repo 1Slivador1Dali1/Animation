@@ -17,7 +17,8 @@ body {
     column-gap: 10px;
     padding: 50px;
     transform: translateX(-340px);
-    transition-duration: 1s;
+    transition: transform 1s;
+    cursor: pointer;
 }
 
 .sidebar:hover {
